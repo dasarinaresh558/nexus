@@ -60,8 +60,15 @@
 	</build>
 	
 <distributionManagement>
+	
+    <repository>
+        <id>maven-releases</id>
+        <name>releases</name>
+        <url>http://3.17.77.155:8081/repository/maven-releases/</url>
+    </repository>	
    <snapshotRepository>
       <id>maven-snapshots</id>
+      <name>snapshot</name>
       <url>http://3.17.77.155:8081/repository/maven-snapshots/</url>
    </snapshotRepository>
 </distributionManagement>
